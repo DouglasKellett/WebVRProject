@@ -8,11 +8,13 @@
 <body>
 <a-scene>
   <a-assets>
+    <a-asset-item id="handle-obj" src="handle.obj"></a-asset-item>
     <img id="spheremap" src="bumpy.png">
     <img id="boxmap" src="wall.jpg">
     <img id="boxtexture" src="box.jpg">
     <img id="shunk" src="cylinder.jpg">
   </a-assets>
+ <a-entity scale="1 1 1" obj-model="obj: #handle-obj; mtl: #handle-mtl"></a-entity>
  <a-sphere position="0 1.25 -1" radius="1.25" color="#EF2D5E" normal-map="bumpy.png"></a-sphere>
  <a-box position="-1 0.5 1" width="1" height="1" depth="1" normal-map="wall.jpg" src="box.jpg"></a-box>
  <a-cylinder position="1 0.75 1" radius="0.5" height="1.5" src="cylinder.jpg" normal-map="cylinder.jpg" color="FFC65D"
