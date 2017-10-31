@@ -17,6 +17,7 @@
     <img id="doot.png" src="doot.png">
     <audio id="ambience" src="ambience.mp3"></audio>
     <audio id="jack-in-the-box" src="jack in the box.mp3"></audio>
+    <audio id="doot" src="doot.mp3"></audio>
   </a-assets>
  <a-entity scale="0.1 0.1 0.1" position="1.5 1 0" obj-model="obj: #handle-obj; mtl: #handle-mtl" sound="src: #jack-in-the-box; autoplay: true; loop: true;"
  animation="property: rotation; dur: 1000;
@@ -26,7 +27,7 @@
  <a-box width="2" height="0.1" depth="2" position="0 2 0" color="#4CC3D9"
  animation="property: rotation; dir: alternate; dur: 50000;
                            easing: easeInSine; loop: true; to: -90 0 0"></a-box>
- <a-image src="doot.png" position="0 -100 0" animation="property: position; dir: alternate; dur: 50000 easing: easeInSine; loop: true; to: 0 3 0.9"></a-image>
+ <a-image src="doot.png" position="0 -100 0" animation="property: position; dir: alternate; dur: 50000 easing: easeInSine; loop: true; to: 0 3 0.9" sound="src #doot; autoplay: true; loop: true; volume: 4;"></a-image>
  <a-sky src="sky.jpg"></a-sky>
  <a-entity position="0 0 3.8">
   <a-camera></a-camera>
