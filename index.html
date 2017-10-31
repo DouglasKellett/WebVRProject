@@ -14,13 +14,13 @@
     <a-asset-item id="box-mtl" src="box.mtl"></a-asset-item>
     <img id="sky.jpg" src="sky.jpg">
     <img id="floor.jpg" src="floor.jpg">
-    <audio id="ambience" src"ambience.mp3">
+    <audio id="ambience" src="ambience.mp3">
   </a-assets>
  <a-entity scale="0.1 0.1 0.1" position="1.5 1 0" obj-model="obj: #handle-obj; mtl: #handle-mtl"
  animation="property: rotation; dur: 1000;
                            easing: easeInSine; loop: true; to: 360 0 0"></a-entity>
  <a-entity scale="2 2 2" position="0 1 0" obj-model="obj: #box-obj; mtl: #box-mtl"></a-entity>
- <a-plane width="10" height="10" rotation="-90 0 0" src="floor.jpg" sound="src: #ambience; autoplay: true; loop: true; volume:5;"></a-plane>
+ <a-plane width="10" height="10" rotation="-90 0 0" src="floor.jpg" sound="src: #ambience; autoplay: true; loop: true; volume:2;"></a-plane>
  <a-sky src="sky.jpg"></a-sky>
  <a-entity position="0 0 3.8">
   <a-camera></a-camera>
