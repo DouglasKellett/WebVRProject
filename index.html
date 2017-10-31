@@ -15,8 +15,9 @@
     <img id="sky.jpg" src="sky.jpg">
     <img id="floor.jpg" src="floor.jpg">
     <audio id="ambience" src="ambience.mp3">
+    <audio id="jack-in-the-box" src="jack in the box.mp3">
   </a-assets>
- <a-entity scale="0.1 0.1 0.1" position="1.5 1 0" obj-model="obj: #handle-obj; mtl: #handle-mtl"
+ <a-entity scale="0.1 0.1 0.1" position="1.5 1 0" obj-model="obj: #handle-obj; mtl: #handle-mtl" sound="src: #jack-in-the-box; autoplay: true; loop: true;"
  animation="property: rotation; dur: 1000;
                            easing: easeInSine; loop: true; to: 360 0 0"></a-entity>
  <a-entity scale="2 2 2" position="0 1 0" obj-model="obj: #box-obj; mtl: #box-mtl"></a-entity>
