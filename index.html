@@ -20,12 +20,12 @@
     <audio id="doot" src="doot.mp3"></audio>
     <img id="box-normal.jpg" src="box-normal.jpg">
   </a-assets>
- <a-entity scale="0.1 0.1 0.1" position="1.5 1 0" obj-model="obj: #handle-obj; mtl: #handle-mtl" sound="src: #jack-in-the-box; autoplay: true; loop: true;"
+ <a-entity scale="0.1 0.1 0.1" position="1.5 1 0" obj-model="obj: #handle-obj; mtl: #handle-mtl" sound="src: #jack-in-the-box; autoplay: true; loop: true;" normal-map="box-normal.jpg"
  animation="property: rotation; dur: 1000;
                            loop: true; to: 360 0 0"></a-entity>
  <a-entity scale="2 2 2" position="0 1 0" obj-model="obj: #box-obj; mtl: #box-mtl"></a-entity>
  <a-plane width="10" height="10" rotation="-90 0 0" src="floor.jpg" sound="src: #ambience; autoplay: true; loop: true; volume:4;"></a-plane>
- <a-box width="2" height="0.1" depth="2" position="0 2 0" color="#4CC3D9" sound="src: #doot; autoplay: true; loop: true;" normal-map="box-normal.jpg"
+ <a-box width="2" height="0.1" depth="2" position="0 2 0" color="#4CC3D9" sound="src: #doot; autoplay: true; loop: true;"
  animation="property: rotation; dir: alternate; dur: 50000;
                            easing: easeInSine; loop: true; to: -90 0 0"></a-box>
  <a-image src="doot.png" position="0 0 -100" animation="property: position; dir: alternate; dur: 50000 easing: easeInSine; loop: true; to: 0 2.5 3"></a-image>
